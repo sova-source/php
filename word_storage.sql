@@ -1,2 +1,0 @@
-CREATE TABLE `word_storage`.`uploaded_text` ( `id` INT NOT NULL AUTO_INCREMENT , `content` TEXT NOT NULL , `date` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP , `words_count` INT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
-CREATE TABLE `word_storage`.`word` ( `id` INT NOT NULL AUTO_INCREMENT , `teext_id` INT NOT NULL , `word` VARCHAR(255) NOT NULL , `count` INT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
